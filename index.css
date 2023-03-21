@@ -1,0 +1,36 @@
+body{
+  background-image: url("img/sport1.png");
+background-repeat: no-repeat;
+width: 1000px;
+height: 100px;
+animation: car 2s linear infinite;
+}
+div {
+  background-color: #000000;
+width: 150px;
+height: 10px;
+top: 340px ;
+position: relative;
+animation: car1 2s linear infinite;
+}
+
+@keyframes car {
+
+  0% {background-position-x: 0;}
+
+  100% { background-position-x: 1000px
+}
+}
+
+@keyframes car1 {
+
+  0% {
+    width: 150px
+  }
+
+  100% {
+    width: 1000px
+  }
+}
+
+
